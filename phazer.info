@@ -3,6 +3,7 @@ description = Phazer is the Phase2 D8 profile sanbdbox
 core = 8.x
 
 ; Core
+dependencies[] = node
 dependencies[] = block
 dependencies[] = contextual
 dependencies[] = dashboard
