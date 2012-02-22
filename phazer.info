@@ -5,6 +5,8 @@ core = 8.x
 ; Core
 dependencies[] = node
 dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
 dependencies[] = contextual
 dependencies[] = dashboard
 dependencies[] = help
@@ -19,7 +21,6 @@ dependencies[] = dblog
 dependencies[] = shortcut
 dependencies[] = toolbar
 dependencies[] = overlay
-dependencies[] = field
 dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = rdf
