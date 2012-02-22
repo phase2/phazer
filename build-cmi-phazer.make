@@ -3,7 +3,8 @@ core = 8.x
 projects[drupal][type] = core
 projects[drupal][download][type] = git
 projects[drupal][download][url] = http://git.drupal.org/project/drupal.git
-projects[drupal][download][branch] = 8.x
+;projects[drupal][download][branch] = 8.x
+projects[drupal][download][revision] = edabf1f
 
 ; CMI Initiative
 projects[drupal][patch][] = http://drupal.org/files/cmi_103.patch
