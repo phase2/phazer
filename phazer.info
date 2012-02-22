@@ -21,7 +21,10 @@ dependencies[] = overlay
 dependencies[] = field
 dependencies[] = field_ui
 dependencies[] = file
+dependencies[] = rdf
 
 ; Core D8
 dependencies[] = config
 
+
+files[] = phazer.profile
