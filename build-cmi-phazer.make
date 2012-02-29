@@ -4,10 +4,10 @@ projects[drupal][type] = core
 projects[drupal][download][type] = git
 projects[drupal][download][url] = http://git.drupal.org/project/drupal.git
 ;projects[drupal][download][branch] = 8.x
-projects[drupal][download][revision] = 97058d4
+projects[drupal][download][revision] = 5834887
 
 ; CMI Initiative
-projects[drupal][patch][] = http://drupal.org/files/cmi_7.patch
+projects[drupal][patch][] = http://drupal.org/files/cmi_8.patch
 
 projects[phazer][type] = profile
 projects[phazer][download][type] = git
