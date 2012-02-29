@@ -1,0 +1,4 @@
+name = Config Viewer
+description = Module to test config for D8
+core = 8.x
+

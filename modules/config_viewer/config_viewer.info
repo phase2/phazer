@@ -1,0 +1,4 @@
+name = Config Test
+description = Module to test configuration for D8
+core = 8.x
+

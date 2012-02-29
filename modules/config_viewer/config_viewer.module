@@ -1,0 +1,20 @@
+<?php
+
+function config_viewer_menu() {
+  $items['config/view'] = array(
+     'title' => 'Config Test',
+     'page callback' => 'config_viewer_view_config',
+     'access callback' => TRUE,
+     'type' => MENU_CALLBACK,
+   );
+  return $items;
+}
+
+function config_viewer_view_config() {
+  $config = config('phazer.test');
+  $output = '<h2>phazer.test</h2><pre>' . print_r($config->get(), TRUE) . '</pre>';
+
+  $config = config('config_test.test');
+  $output .= '<h2>config_test.test</h2><pre>' . print_r($config->get(), TRUE) . '</pre>';
+  return $output;
+}
