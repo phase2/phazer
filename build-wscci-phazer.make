@@ -2,9 +2,9 @@ api = 2
 core = 8.x
 projects[drupal][type] = core
 projects[drupal][download][type] = git
-projects[drupal][download][url] = http://git.drupal.org/project/drupal.git
-;projects[drupal][download][branch] = 8.x
-projects[drupal][download][revision] = edabf1f
+projects[drupal][download][url] = http://git.drupal.org/sandbox/Crell/1260830.git
+projects[drupal][download][branch] = kernel
+;projects[drupal][download][revision] = 31b8653
 
 ; WSCCI Initiative patches
 ;projects[drupal][patch][] = http://drupal.org/files/cmi_103.patch
